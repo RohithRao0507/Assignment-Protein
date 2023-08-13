@@ -20,6 +20,7 @@ The code successfully calculated the minimal Euclidean distance between the clos
 ## Conclusion
 This code aids in understanding the proximity of atoms across different positions in the protein. The distance matrix serves as a valuable resource for analyzing interatomic distances, aiding in tasks such as **identifying potential binding sites** or investigating structural changes within the protein.
 
+<hr>
 
 # Part 2: Distance Matrix Calculation Report
 

@@ -8,12 +8,11 @@ The dataset contains X, Y, and Z coordinates for **856** positions of protein at
 
 ## Approach
 1. **Imported** the dataset from an Excel file.
-2. **Cleared** the data from all the noise.
-3. **Converted** categorical columns to numerical using Label Encoding.
-4. **Split** data into 80:20 ratio for training and testing. 
-5. **At last**, tried to find the importance along with the position and saved the data in descending order in a CSV file.
-6. **Finally** drawn a graph showing the importance of each one. 
-
+2. **Created** a function to compute Euclidean distance between two points.
+3. **Extracted** unique positions and initialized an empty distance matrix.
+4. **For each pair of positions**, computed the pairwise Euclidean distances between their atoms using the defined function.
+5. **Recorded** the minimal distance between the positions in the distance matrix.
+6. **Saved** the distance matrix as a CSV file.
 
 ## Results
 The code successfully calculated the minimal Euclidean distance between the closest atoms of any two positions in the protein coordinate dataset. The resulting distance matrix captures these distances in a clear and organized format, providing **valuable insights** into the spatial relationships between protein atoms.
@@ -33,11 +32,11 @@ The dataset contains the Env sequence for 796 viruses from patients (856 charact
 
 ## Approach
 1. **Imported** the dataset from an Excel file.
-2. **Created** a function to compute Euclidean distance between two points.
-3. **Extracted** unique positions and initialized an empty distance matrix.
-4. **For each pair of positions**, computed the pairwise Euclidean distances between their atoms using the defined function.
-5. **Recorded** the minimal distance between the positions in the distance matrix.
-6. **Saved** the distance matrix as a CSV file.
+2. **Cleared** the data from all the noise.
+3. **Converted** categorical columns to numerical using Label Encoding.
+4. **Split** data into 80:20 ratio for training and testing. 
+5. **At last**, tried to find the importance along with the position and saved the data in descending order in a CSV file.
+6. **Finally** drawn a graph showing the importance of each one. 
 
 ## Results
 The code is successful in identifying the new virus with 96% accuracy and in the Excel output it placed the highest association level in descending order. 

@@ -1,4 +1,4 @@
-#Part 1: Distance Matrix Calculation Report
+# Part 1: Distance Matrix Calculation Report
 
 ## Objective
 Calculate the minimal Euclidean distance between the two closest atoms of any two positions in a protein coordinate dataset.
@@ -21,7 +21,7 @@ The code successfully calculated the minimal Euclidean distance between the clos
 This code aids in understanding the proximity of atoms across different positions in the protein. The distance matrix serves as a valuable resource for analyzing interatomic distances, aiding in tasks such as **identifying potential binding sites** or investigating structural changes within the protein.
 
 
-#Part 2: Distance Matrix Calculation Report
+# Part 2: Distance Matrix Calculation Report
 
 ## Objective
 Estimate the 2F5 outcome (restraint or sensitive) for viruses based on the sequence, and identify the positions with the highest association level with the outcome
